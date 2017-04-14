@@ -1,0 +1,14 @@
+sudo: required
+
+language: go
+
+git:
+  depth: 1
+
+services:
+  - docker
+
+script:
+  - make build
+  - make login
+  - make push
