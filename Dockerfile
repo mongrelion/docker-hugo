@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 MAINTAINER Carlos León <mail@carlosleon.info>
 
-ARG HUGO_VERSION
+ARG HUGO_VERSION=0.20.1
 
 RUN apk update
 RUN apk add openssl
