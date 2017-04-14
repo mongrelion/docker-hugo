@@ -1,5 +1,7 @@
 ### [Hugo](https://gohugo.io) Docker container
 
+[![Build Status](https://travis-ci.org/mongrelion/docker-hugo.svg?branch=master)](https://travis-ci.org/mongrelion/docker-hugo)
+
 This image is based on official [Alpine](https://hub.docker.com/_/alpine) lightweight Docker image.
 
 ### Building this image
