@@ -1,4 +1,4 @@
-HUGO_VERSION := 0.25.1
+HUGO_VERSION := 0.60.0
 IMAGE        := mongrelion/hugo
 TAG          := $(HUGO_VERSION)
 NAME         := $(IMAGE):$(TAG)

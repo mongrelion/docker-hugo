@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.10.3
 
 MAINTAINER Carlos León <mail@carlosleon.info>
 
@@ -16,7 +16,7 @@ RUN wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_$
     tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
     mv ./hugo /usr/bin/hugo && \
     chmod +x /usr/bin/hugo && \
-    rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz README.md LICENSE.md
+    rm hugo_${HUGO_VERSION}_Linux-64bit.tar.gz README.md LICENSE
 
 # Install Pygments. Enables server-side syntax highlighting
 RUN pip install Pygments
