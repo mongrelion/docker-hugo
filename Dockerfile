@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 MAINTAINER Carlos León <mail@carlosleon.info>
 
-ARG HUGO_VERSION=0.25.1
+ARG HUGO_VERSION=0.60.0
 
 RUN apk update
 RUN apk add openssl py2-pip
